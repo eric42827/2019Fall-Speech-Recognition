@@ -1,0 +1,2 @@
+copy-transition-model --binary=false exp/tri/final.mdl exp/mlp/final.mdl 
+LOG (copy-transition-model[5.3.57~1-6f9f]:main():copy-transition-model.cc:62) Copied transition model.

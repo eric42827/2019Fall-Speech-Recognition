@@ -1,0 +1,2 @@
+convert-ali exp/mono/final.mdl exp/tri/01.mdl exp/tri/tree ark:exp/mono/train.ali ark:exp/tri/00.ali 
+LOG (convert-ali[5.3.57~1-6f9f]:main():convert-ali.cc:120) Succeeded converting alignments for 4000 files, failed for 0
