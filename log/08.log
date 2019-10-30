@@ -1,0 +1,272 @@
+=====================================================================================
+                                    MLP  Training                                    
+=====================================================================================
+Computing normalization for input layer
+    output -> exp/mlp/norm.nnet
+    log -> exp/mlp/log/norm.nnet.log
+Network topology :
+    depth = [ 4 ]
+    feature dimension = [ 429 ]
+    number of nodes in one hidden layer = [ 1024 ]
+    number of targets = [ 1654 ]
+Iteration 00 :
+    generating network prototype
+        output -> exp/mlp/nnet.proto
+
+We use dnn neural network, and nnet-train-frmshuff as our training tool.
+
+    Initializing the NN 'exp/mlp/nnet.proto' -> 'exp/mlp/nnet.init'
+    log -> exp/mlp/log/nnet.init.log
+
+    Run the first cross validation.
+    log -> exp/mlp/log/iter00.cv.log
+    CROSSVAL PRERUN AVG.LOSS 7.7751 (Xent),
+Epoch 01 :
+    [Training] 
+      log -> exp/mlp/log/iter01.tr.log
+      TRAIN AVG.LOSS 2.2439, (lrate0.008) 
+    [Cross Validation]
+      log -> exp/mlp/log/iter01.cv.log
+      CROSSVAL AVG.LOSS 3.5520,     nnet accepted (nnet_iter01)
+
+    excution  time for epoch 01 = 00 hours 02 mins 06 secs
+Epoch 02 :
+    [Training] 
+      log -> exp/mlp/log/iter02.tr.log
+      TRAIN AVG.LOSS 1.2660, (lrate0.008) 
+    [Cross Validation]
+      log -> exp/mlp/log/iter02.cv.log
+      CROSSVAL AVG.LOSS 3.1936,     nnet accepted (nnet_iter02)
+
+    excution  time for epoch 02 = 00 hours 02 mins 13 secs
+Epoch 03 :
+    [Training] 
+      log -> exp/mlp/log/iter03.tr.log
+      TRAIN AVG.LOSS 1.0668, (lrate0.008) 
+    [Cross Validation]
+      log -> exp/mlp/log/iter03.cv.log
+      CROSSVAL AVG.LOSS 3.0465,     nnet accepted (nnet_iter03)
+
+    excution  time for epoch 03 = 00 hours 02 mins 18 secs
+Epoch 04 :
+    [Training] 
+      log -> exp/mlp/log/iter04.tr.log
+      TRAIN AVG.LOSS 0.9384, (lrate0.008) 
+    [Cross Validation]
+      log -> exp/mlp/log/iter04.cv.log
+      CROSSVAL AVG.LOSS 3.0077,     nnet accepted (nnet_iter04)
+
+    excution  time for epoch 04 = 00 hours 02 mins 08 secs
+Epoch 05 :
+    [Training] 
+      log -> exp/mlp/log/iter05.tr.log
+      TRAIN AVG.LOSS 0.8378, (lrate0.008) 
+    [Cross Validation]
+      log -> exp/mlp/log/iter05.cv.log
+      CROSSVAL AVG.LOSS 2.9951,     nnet accepted (nnet_iter05)
+
+    excution  time for epoch 05 = 00 hours 02 mins 10 secs
+Epoch 06 :
+    [Training] 
+      log -> exp/mlp/log/iter06.tr.log
+      TRAIN AVG.LOSS 0.7526, (lrate0.008) 
+    [Cross Validation]
+      log -> exp/mlp/log/iter06.cv.log
+      CROSSVAL AVG.LOSS 3.0033,     nnet accepted (nnet_iter06)
+
+    excution  time for epoch 06 = 00 hours 02 mins 11 secs
+Epoch 07 :
+    [Training] 
+      log -> exp/mlp/log/iter07.tr.log
+      TRAIN AVG.LOSS 0.6777, (lrate0.008) 
+    [Cross Validation]
+      log -> exp/mlp/log/iter07.cv.log
+      CROSSVAL AVG.LOSS 3.0333,     nnet accepted (nnet_iter07)
+
+    excution  time for epoch 07 = 00 hours 02 mins 17 secs
+Epoch 08 :
+    [Training] 
+      log -> exp/mlp/log/iter08.tr.log
+      TRAIN AVG.LOSS 0.6103, (lrate0.008) 
+    [Cross Validation]
+      log -> exp/mlp/log/iter08.cv.log
+      CROSSVAL AVG.LOSS 3.0790,     nnet accepted (nnet_iter08)
+
+    excution  time for epoch 08 = 00 hours 02 mins 16 secs
+Epoch 09 :
+    [Training] 
+      log -> exp/mlp/log/iter09.tr.log
+      TRAIN AVG.LOSS 0.5487, (lrate0.008) 
+    [Cross Validation]
+      log -> exp/mlp/log/iter09.cv.log
+      CROSSVAL AVG.LOSS 3.1258,     nnet accepted (nnet_iter09)
+
+    excution  time for epoch 09 = 00 hours 02 mins 44 secs
+Epoch 10 :
+    [Training] 
+      log -> exp/mlp/log/iter10.tr.log
+      TRAIN AVG.LOSS 0.4924, (lrate0.008) 
+    [Cross Validation]
+      log -> exp/mlp/log/iter10.cv.log
+      CROSSVAL AVG.LOSS 3.1754,     nnet accepted (nnet_iter10)
+
+    excution  time for epoch 10 = 00 hours 04 mins 54 secs
+Epoch 11 :
+    [Training] 
+      log -> exp/mlp/log/iter11.tr.log
+      TRAIN AVG.LOSS 0.4406, (lrate0.008) 
+    [Cross Validation]
+      log -> exp/mlp/log/iter11.cv.log
+      CROSSVAL AVG.LOSS 3.2399,     nnet accepted (nnet_iter11)
+
+    excution  time for epoch 11 = 00 hours 05 mins 05 secs
+
+    Start to halving learning rate...
+Epoch 12 :
+    [Training] 
+      log -> exp/mlp/log/iter12.tr.log
+      TRAIN AVG.LOSS 0.4051, (lrate0.004) 
+    [Cross Validation]
+      log -> exp/mlp/log/iter12.cv.log
+      CROSSVAL AVG.LOSS 3.1166,     nnet accepted (nnet_iter12)
+
+    excution  time for epoch 12 = 00 hours 05 mins 12 secs
+Epoch 13 :
+    [Training] 
+      log -> exp/mlp/log/iter13.tr.log
+      TRAIN AVG.LOSS 0.4188, (lrate0.002) 
+    [Cross Validation]
+      log -> exp/mlp/log/iter13.cv.log
+      CROSSVAL AVG.LOSS 3.0085,     nnet accepted (nnet_iter13)
+
+    excution  time for epoch 13 = 00 hours 05 mins 16 secs
+Epoch 14 :
+    [Training] 
+      log -> exp/mlp/log/iter14.tr.log
+      TRAIN AVG.LOSS 0.4551, (lrate0.001) 
+    [Cross Validation]
+      log -> exp/mlp/log/iter14.cv.log
+      CROSSVAL AVG.LOSS 2.9236,     nnet accepted (nnet_iter14)
+
+    excution  time for epoch 14 = 00 hours 05 mins 19 secs
+Epoch 15 :
+    [Training] 
+      log -> exp/mlp/log/iter15.tr.log
+      TRAIN AVG.LOSS 0.5020, (lrate0.0005) 
+    [Cross Validation]
+      log -> exp/mlp/log/iter15.cv.log
+      CROSSVAL AVG.LOSS 2.8519,     nnet accepted (nnet_iter15)
+
+    excution  time for epoch 15 = 00 hours 05 mins 20 secs
+Epoch 16 :
+    [Training] 
+      log -> exp/mlp/log/iter16.tr.log
+      TRAIN AVG.LOSS 0.5534, (lrate0.00025) 
+    [Cross Validation]
+      log -> exp/mlp/log/iter16.cv.log
+      CROSSVAL AVG.LOSS 2.7726,     nnet accepted (nnet_iter16)
+
+    excution  time for epoch 16 = 00 hours 04 mins 51 secs
+Epoch 17 :
+    [Training] 
+      log -> exp/mlp/log/iter17.tr.log
+      TRAIN AVG.LOSS 0.6035, (lrate0.000125) 
+    [Cross Validation]
+      log -> exp/mlp/log/iter17.cv.log
+      CROSSVAL AVG.LOSS 2.6903,     nnet accepted (nnet_iter17)
+
+    excution  time for epoch 17 = 00 hours 04 mins 56 secs
+Epoch 18 :
+    [Training] 
+      log -> exp/mlp/log/iter18.tr.log
+      TRAIN AVG.LOSS 0.6440, (lrate6.25e-05) 
+    [Cross Validation]
+      log -> exp/mlp/log/iter18.cv.log
+      CROSSVAL AVG.LOSS 2.6155,     nnet accepted (nnet_iter18)
+
+    excution  time for epoch 18 = 00 hours 04 mins 52 secs
+Epoch 19 :
+    [Training] 
+      log -> exp/mlp/log/iter19.tr.log
+      TRAIN AVG.LOSS 0.6707, (lrate3.125e-05) 
+    [Cross Validation]
+      log -> exp/mlp/log/iter19.cv.log
+      CROSSVAL AVG.LOSS 2.5490,     nnet accepted (nnet_iter19)
+
+    excution  time for epoch 19 = 00 hours 05 mins 01 secs
+Epoch 20 :
+    [Training] 
+      log -> exp/mlp/log/iter20.tr.log
+      TRAIN AVG.LOSS 0.6860, (lrate1.5625e-05) 
+    [Cross Validation]
+      log -> exp/mlp/log/iter20.cv.log
+      CROSSVAL AVG.LOSS 2.4947,     nnet accepted (nnet_iter20)
+
+    excution  time for epoch 20 = 00 hours 04 mins 55 secs
+Epoch 21 :
+    [Training] 
+      log -> exp/mlp/log/iter21.tr.log
+      TRAIN AVG.LOSS 0.6943, (lrate7.8125e-06) 
+    [Cross Validation]
+      log -> exp/mlp/log/iter21.cv.log
+      CROSSVAL AVG.LOSS 2.4530,     nnet accepted (nnet_iter21)
+
+    excution  time for epoch 21 = 00 hours 04 mins 56 secs
+Epoch 22 :
+    [Training] 
+      log -> exp/mlp/log/iter22.tr.log
+      TRAIN AVG.LOSS 0.6957, (lrate3.90625e-06) 
+    [Cross Validation]
+      log -> exp/mlp/log/iter22.cv.log
+      CROSSVAL AVG.LOSS 2.4272,     nnet accepted (nnet_iter22)
+
+    excution  time for epoch 22 = 00 hours 04 mins 48 secs
+Epoch 23 :
+    [Training] 
+      log -> exp/mlp/log/iter23.tr.log
+      TRAIN AVG.LOSS 0.6935, (lrate1.95313e-06) 
+    [Cross Validation]
+      log -> exp/mlp/log/iter23.cv.log
+      CROSSVAL AVG.LOSS 2.4147,     nnet accepted (nnet_iter23)
+
+    excution  time for epoch 23 = 00 hours 04 mins 48 secs
+
+    Start to halving learning rate...
+Epoch 24 :
+    [Training] 
+      log -> exp/mlp/log/iter24.tr.log
+      TRAIN AVG.LOSS 0.6917, (lrate9.76565e-07) 
+    [Cross Validation]
+      log -> exp/mlp/log/iter24.cv.log
+      CROSSVAL AVG.LOSS 2.4090,     nnet accepted (nnet_iter24)
+
+    excution  time for epoch 24 = 00 hours 05 mins 07 secs
+
+    Start to halving learning rate...
+Epoch 25 :
+    [Training] 
+      log -> exp/mlp/log/iter25.tr.log
+      TRAIN AVG.LOSS 0.6906, (lrate4.88282e-07) 
+    [Cross Validation]
+      log -> exp/mlp/log/iter25.cv.log
+      CROSSVAL AVG.LOSS 2.4062,     nnet accepted (nnet_iter25)
+
+    excution  time for epoch 25 = 00 hours 04 mins 55 secs
+
+    Start to halving learning rate...
+Epoch 26 :
+    [Training] 
+      log -> exp/mlp/log/iter26.tr.log
+      TRAIN AVG.LOSS 0.6901, (lrate2.44141e-07) 
+    [Cross Validation]
+      log -> exp/mlp/log/iter26.cv.log
+      CROSSVAL AVG.LOSS 2.4049,     nnet accepted (nnet_iter26)
+
+    excution  time for epoch 26 = 00 hours 04 mins 55 secs
+
+    finished, too small rel. improvement .0005527318
+
+Succeeded training the Neural Network : exp/mlp/final.nnet
+
+Execution time for whole script = 01 hours 46 mins 35 secs
+

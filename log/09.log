@@ -1,0 +1,30 @@
+
+=================================Finding the optimal acoustic weight================================
+=====================================================================================================
+          Generating char level transcription on acoustic weight = 0.18 -> fst/mlp/dev.0.18.tra
+          Then evaluate the accuracy.
+          log -> fst/mlp/log/dev.0.18.log
+=====================================================================================================
+    acoustic weight = [ 0.18 ]
+    result -> fst/mlp/dev.0.18.rec
+    accuracy -> [ 22.49 ]%
+    excution  time for the evaluation on 9 = 00 hours 32 mins 20 secs
+=====================================================================================================
+          Generating char level transcription on acoustic weight = 0.20 -> fst/mlp/dev.0.20.tra
+          Then evaluate the accuracy.
+          log -> fst/mlp/log/dev.0.20.log
+=====================================================================================================
+    acoustic weight = [ 0.20 ]
+    result -> fst/mlp/dev.0.20.rec
+    accuracy -> [ 20.89 ]%
+    excution  time for the evaluation on 10 = 00 hours 27 mins 07 secs
+Execution time for finding the optimal weight = 00 hours 32 mins 20 secs
+Optimal acoustic weight = 0.18
+
+Testing set evaluation:
+    log->fst/mlp/log/test.log
+    result -> fst/mlp/test.rec
+    accuracy -> [ 18.74 ]%
+
+Execution time for whole script = 01 hours 33 mins 57 secs
+
